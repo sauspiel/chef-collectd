@@ -17,9 +17,7 @@
 # limitations under the License.
 #
 
-package "collectd" do
-  package_name "collectd-core"
-end
+package "collectd" 
 
 service "collectd" do
   supports :restart => true, :status => true
